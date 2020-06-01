@@ -21,13 +21,13 @@ metadata:
   labels:
     app: product-svc
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: product-svc
   ports:
-  - port: 8080
-    targetPort: 8080
-    name: http
+    - port: 8080
+      targetPort: 8080
+      name: http
 ---
 kind: Deployment
 apiVersion: extensions/v1beta1
@@ -42,9 +42,33 @@ spec:
         version: v1
     spec:
       containers:
-      - name: product-svc
-        image: product-svc
-        imagePullPolicy: IfNotPresent
-        ports:
-        - containerPort: 8080
+        - name: product-svc
+          image: iad.ocir.io/natdcshjumpstartprod/product_catalog:3
+          command: ["java", "-jar"]
+          args:
+            - "-Ddatasource.username=$(DB_USER)"
+            - "-Ddatasource.password=$(DB_PASSWORD)"
+            - "-Ddatasource.url=$(DB_URL)"
+            - "product-svc.jar"
+          env:
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: product-svc-secrets
+                  key: dbUser
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: product-svc-secrets
+                  key: dbPassword
+            - name: DB_URL
+              valueFrom:
+                secretKeyRef:
+                  name: product-svc-secrets
+                  key: dbUrl
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+      imagePullSecrets:
+        - name: ocirsecret
 ---

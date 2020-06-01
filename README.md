@@ -48,7 +48,7 @@ java
 
 ## Test Endpoints
 
-Get User Service Endpoint (returns 200 OK):
+Get Product Service Endpoint (returns 200 OK):
 
 ```
 curl -iX GET http://localhost:8080/product                                                                                                                                                    
