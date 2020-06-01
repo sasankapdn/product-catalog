@@ -33,7 +33,7 @@ Create a debug configuration in IntelliJ that runs `mvn package` and then runs t
 ```bash
 -Ddatasource.username=[Username]
 -Ddatasource.password=[Strong Password]
--Ddatasource.url=jdbc:oracle:thin:@demodb_LOW?TNS_ADMIN=/path/to/wallet
+-Ddatasource.url=jdbc:oracle:thin:@product_LOW?TNS_ADMIN=/path/to/wallet
 ```
 
 **Note:** If you're not using IntelliJ, just make sure that you pass all properties:
@@ -42,8 +42,8 @@ Create a debug configuration in IntelliJ that runs `mvn package` and then runs t
 java 
     -Ddatasource.username=[username] \
     -Ddatasource.password=[password] \
-    -Ddatasource.url=jdbc:oracle:thin:@demodb_LOW?TNS_ADMIN=/path/to/wallet \
--jar target/user-svc.jar
+    -Ddatasource.url=jdbc:oracle:thin:@product_LOW?TNS_ADMIN=/path/to/wallet \
+-jar target/product-svc.jar
 ```
 
 ## Test Endpoints
