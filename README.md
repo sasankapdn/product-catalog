@@ -173,77 +173,8 @@ Test the endpoints as [described above](#test-endpoints)
 ```
 kubectl cluster-info                         # Verify which cluster
 kubectl get pods                             # Verify connectivity to cluster
+kubectl create -f secret.yaml               # Deploy Kubernetes Secrets
 kubectl create -f app.yaml               # Deploy application
 kubectl get service product-svc  # Verify deployed service
 ```
 
-## Notes - Deleted
-
-## Build
-
-```
-mvn package
-```
-
-## Start the application
-
-```
-java -jar target/product-svc.jar
-```
-
-## Exercise the application
-
-```
-curl -X GET http://localhost:8080/greet
-{"message":"Hello World!"}
-
-curl -X GET http://localhost:8080/greet/Joe
-{"message":"Hello Joe!"}
-
-curl -X PUT -H "Content-Type: application/json" -d '{"greeting" : "Hola"}' http://localhost:8080/greet/greeting
-
-curl -X GET http://localhost:8080/greet/Jose
-{"message":"Hola Jose!"}
-```
-
-## Try health and metrics
-
-```
-curl -s -X GET http://localhost:8080/health
-{"outcome":"UP",...
-. . .
-
-# Prometheus Format
-curl -s -X GET http://localhost:8080/metrics
-# TYPE base:gc_g1_young_generation_count gauge
-. . .
-
-# JSON Format
-curl -H 'Accept: application/json' -X GET http://localhost:8080/metrics
-{"base":...
-. . .
-
-```
-
-## Build the Docker Image
-
-```
-docker build -t product-svc .
-```
-
-## Start the application with Docker
-
-```
-docker run --rm -p 8080:8080 product-svc:latest
-```
-
-Exercise the application as described above
-
-## Deploy the application to Kubernetes
-
-```
-kubectl cluster-info                         # Verify which cluster
-kubectl get pods                             # Verify connectivity to cluster
-kubectl create -f app.yaml               # Deploy application
-kubectl get service product-svc  # Verify deployed service
-```
