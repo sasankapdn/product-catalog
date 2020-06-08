@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3abe23b8-b342-4a55-8f41-47edc0ed8754" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/product-svc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/product-svc.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -29,7 +29,7 @@ import javax.ws.rs.core.UriInfo;
 import java.util.*;
 
 /**
- * Resource for managing users
+ * Resource for managing products
  */
 @Path("/product")
 @RequestScoped
@@ -86,11 +86,13 @@ public class ProductResource {
 
         if( violations.size() == 0 ) {
             productRepository.save(user);
-            return Response.created(
-                    uriInfo.getBaseUriBuilder()
-                            .path("/user/{id}")
-                            .build(user.getPRODUCT_ID())
-            ).build();
+            //return Response.created(
+            //        uriInfo.getBaseUriBuilder()
+            //                .path("/user/{id}")
+            //                .build(user.getPRODUCT_ID())
+            //).build();
+            return Response.ok("{ status: Saved, PRODUCT_ID: "+user.getPRODUCT_ID()+"}", MediaType.APPLICATION_JSON).build();
+
         }
         else {
             List<HashMap<String, String>> errors = new ArrayList<>();
@@ -117,7 +119,8 @@ public class ProductResource {
     @DELETE
     public Response deleteUser(@PathParam("id") String id) {
         productRepository.deleteById(id);
-        return Response.noContent().build();
+        //return Response.noContent().build();
+        return Response.ok("{ status: Deleted, PRODUCT_ID: "+id+"}", MediaType.APPLICATION_JSON).build();
     }
 
 
