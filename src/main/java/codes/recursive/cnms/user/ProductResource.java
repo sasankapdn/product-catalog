@@ -78,6 +78,15 @@ public class ProductResource {
         return Response.ok(this.productRepository.findAll(offset, max)).build();
     }
 
+    @Path("/create")
+    @POST
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response saveUser(RequestBody rq) {
+        productRepository.create(rq);
+        return Response.ok("{ status: Saved, PRODUCT_ID: "+rq.PRODUCT_ID+"}", MediaType.APPLICATION_JSON).build();
+
+    }
+
     @Path("/save")
     @POST
     @Produces(MediaType.APPLICATION_JSON)

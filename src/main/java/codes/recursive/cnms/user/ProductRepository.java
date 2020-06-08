@@ -79,5 +79,21 @@ public class ProductRepository {
             }
         }
     }
+    public Product create(RequestBody requestBody) {
+        Product prod = new Product();
+        prod.LIST_PRICE=requestBody.LIST_PRICE;
+        prod.PRODUCT_ID =requestBody.PRODUCT_ID;
+        prod.PRODUCT_NAME=requestBody.PRODUCT_NAME;
+        prod.PRODUCT_STATUS="Available";
+        prod.MIN_PRICE="2.99";
+        prod.CREATED_BY="0";
+        prod.LAST_UPDATED_BY="0";
+        prod.OBJECT_VERSION_ID="1";
+        entityManager.getTransaction().begin();
+        entityManager.merge(prod);
+        entityManager.getTransaction().commit();
+        return prod;
+    }
+
 
 }

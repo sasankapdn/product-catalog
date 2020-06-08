@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3abe23b8-b342-4a55-8f41-47edc0ed8754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/product-svc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/product-svc.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +16,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +89,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductResource.java</url>
-          <line>83</line>
+          <line>92</line>
           <properties class="codes.recursive.cnms.user.ProductResource" method="saveUser" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
