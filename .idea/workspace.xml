@@ -5,10 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/model/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/product-svc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/product-svc.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -92,6 +95,12 @@
           <line>92</line>
           <properties class="codes.recursive.cnms.user.ProductResource" method="saveUser" />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/ProductRepository.java</url>
+          <line>51</line>
+          <properties class="codes.recursive.cnms.user.ProductRepository" method="findAll" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -19,56 +19,56 @@ public class Product {
     @Column(name = "PRODUCT_ID")
     @NotNull
     @Size(max=500)
-    public String PRODUCT_ID;
+    public String product_id;
 
 
-    @Column(name = "CATEGORY_ID")
+    @Column(name = "category_id")
     @Size(max=500)
-    public  String CATEGORY_ID;
+    public  String category_id;
 
-    @Column(name = "LIST_PRICE")
-
-    @Size(max=500)
-    public  String LIST_PRICE;
-
-    @Column(name = "ATTRIBUTE3")
-    @Size(max=500)
-    public  String ATTRIBUTE3;
-
-    @Column(name = "CREATED_BY")
+    @Column(name = "list_price")
 
     @Size(max=500)
-    public  String CREATED_BY;
+    public  String list_price;
 
-    @Column(name = "ATTRIBUTE2")
+    @Column(name = "attribute3")
     @Size(max=500)
-    public  String ATTRIBUTE2;
+    public  String attribute3;
 
-    @Column(name = "LAST_UPDATED_BY")
-    @Size(max=500)
-    public  String LAST_UPDATED_BY;
-
-    @Column(name = "ATTRIBUTE1")
-    @Size(max=500)
-    public  String ATTRIBUTE1;
-
-    @Column(name = "OBJECT_VERSION_ID")
+    @Column(name = "created_by")
 
     @Size(max=500)
-    public  String OBJECT_VERSION_ID;
+    public  String created_by;
 
-    @Column(name = "MIN_PRICE")
+    @Column(name = "attribute2")
+    @Size(max=500)
+    public  String attribute2;
+
+    @Column(name = "last_updated_by")
+    @Size(max=500)
+    public  String last_updated_by;
+
+    @Column(name = "attribute1")
+    @Size(max=500)
+    public  String attribute1;
+
+    @Column(name = "object_version_id")
 
     @Size(max=500)
-    public  String MIN_PRICE;
+    public  String object_version_id;
 
-    @Column(name = "PARENT_CATEGORY_ID")
+    @Column(name = "min_price")
+
     @Size(max=500)
-    public  String PARENT_CATEGORY_ID;
+    public  String min_price;
+
+    @Column(name = "parent_category_id")
+    @Size(max=500)
+    public  String parent_category_id;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    @Column(name = "CREATION_DATE")
-    private Date CREATION_DATE = new Date();
+    @Column(name = "creation_date")
+    private Date creation_date = new Date();
 
 
 
@@ -76,184 +76,50 @@ public class Product {
 
 
 
-    @Column(name = "PRODUCT_NAME")
+    @Column(name = "product_name")
 
     @Size(max=500)
-    public  String PRODUCT_NAME;
+    public  String product_name;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    @Column(name = "LAST_UPDATE_DATE")
-    private Date LAST_UPDATE_DATE = new Date();
+    @Column(name = "last_update_date")
+    private Date last_update_date = new Date();
 
 
-    @Column(name = "EXTERNAL_URL")
+    @Column(name = "external_url")
     @Size(max=500)
-    public  String EXTERNAL_URL;
+    public  String external_url;
 
-    @Column(name = "ATTRIBUTE5")
+    @Column(name = "attribute5")
     @Size(max=500)
-    public  String ATTRIBUTE5;
+    public  String attribute5;
 
-    @Column(name = "ATTRIBUTE4")
+    @Column(name = "attribute4")
     @Size(max=500)
-    public  String ATTRIBUTE4;
+    public  String attribute4;
 
-    @Column(name = "ATTRIBUTE_CATEGORY")
+    @Column(name = "attribute_category")
     @Size(max=500)
-    public  String ATTRIBUTE_CATEGORY;
+    public  String attribute_category;
 
-    @Column(name = "PRODUCT_STATUS")
+    @Column(name = "product_status")
 
     @Size(max=500)
-    public  String PRODUCT_STATUS;
+    public  String product_status;
 
-    @Column(name = "WARRANTY_PERIOD_MONTHS")
+    @Column(name = "warranty_period_months")
     @Size(max=500)
-    public  String WARRANTY_PERIOD_MONTHS;
+    public  String warranty_period_months;
 
-    @Column(name = "COST_PRICE")
+    @Column(name = "cost_price")
     @Size(max=500)
-    public  String COST_PRICE;
+    public  String cost_price;
 
-    @Column(name = "TWITTER_TAG")
+    @Column(name = "twitter_tag")
     @Size(max=500)
-    public  String TWITTER_TAG;
+    public  String twitter_tag;
 
 
-    public String getCATEGORY_ID() {
-        return CATEGORY_ID;
-    }
 
-    public String getLIST_PRICE() {
-        return LIST_PRICE;
-    }
-
-    public String getATTRIBUTE3() {
-        return ATTRIBUTE3;
-    }
-
-    public String getCREATED_BY() {
-        return CREATED_BY;
-    }
-
-    public String getATTRIBUTE2() {
-        return ATTRIBUTE2;
-    }
-
-    public String getLAST_UPDATED_BY() {
-        return LAST_UPDATED_BY;
-    }
-
-    public String getATTRIBUTE1() {
-        return ATTRIBUTE1;
-    }
-
-    public String getOBJECT_VERSION_ID() {
-        return OBJECT_VERSION_ID;
-    }
-
-    public String getMIN_PRICE() {
-        return MIN_PRICE;
-    }
-
-    public String getPARENT_CATEGORY_ID() {
-        return PARENT_CATEGORY_ID;
-    }
-
-    public String getCREATION_DATE() {
-        return CREATION_DATE.toString();
-    }
-
-    public String getPRODUCT_ID() {
-        return PRODUCT_ID;
-    }
-
-    public String getPRODUCT_NAME() {
-        return PRODUCT_NAME;
-    }
-
-    public String getLAST_UPDATE_DATE() {
-        return LAST_UPDATE_DATE.toString();
-    }
-
-    public String getEXTERNAL_URL() {
-        return EXTERNAL_URL;
-    }
-
-    public String getATTRIBUTE5() {
-        return ATTRIBUTE5;
-    }
-
-    public String getATTRIBUTE4() {
-        return ATTRIBUTE4;
-    }
-
-    public String getATTRIBUTE_CATEGORY() {
-        return ATTRIBUTE_CATEGORY;
-    }
-
-    public String getPRODUCT_STATUS() {
-        return PRODUCT_STATUS;
-    }
-
-    public String getWARRANTY_PERIOD_MONTHS() {
-        return WARRANTY_PERIOD_MONTHS;
-    }
-
-    public String getCOST_PRICE() {
-        return COST_PRICE;
-    }
-
-    public String getTWITTER_TAG() {
-        return TWITTER_TAG;
-    }
-
-    public Product(){
-
-    }
-    public Product(String CATEGORY_ID,String LIST_PRICE, String ATTRIBUTE3
-            , String CREATED_BY
-            , String ATTRIBUTE2
-            , String LAST_UPDATED_BY
-            , String ATTRIBUTE1
-            , String OBJECT_VERSION_ID
-            , String MIN_PRICE
-            , String PARENT_CATEGORY_ID
-            , Date CREATION_DATE
-            , String PRODUCT_ID
-            , String PRODUCT_NAME
-            , Date LAST_UPDATE_DATE
-            , String EXTERNAL_URL
-            , String ATTRIBUTE5
-            , String ATTRIBUTE4
-            , String ATTRIBUTE_CATEGORY
-            , String PRODUCT_STATUS
-            , String WARRANTY_PERIOD_MONTHS
-            , String COST_PRICE, String TWITTER_TAG) {
-
-        this.CATEGORY_ID = CATEGORY_ID;
-        this.LIST_PRICE =LIST_PRICE;
-        this.ATTRIBUTE3 = ATTRIBUTE3;
-        this.CREATED_BY = CREATED_BY;
-        this.ATTRIBUTE2 = ATTRIBUTE2;
-        this.LAST_UPDATED_BY = LAST_UPDATED_BY;
-        this.ATTRIBUTE1 = ATTRIBUTE1;
-        this.OBJECT_VERSION_ID = OBJECT_VERSION_ID;
-        this.MIN_PRICE = MIN_PRICE;
-        this.PARENT_CATEGORY_ID = PARENT_CATEGORY_ID;
-        this.CREATION_DATE = CREATION_DATE;
-        this.PRODUCT_ID = PRODUCT_ID;
-        this.PRODUCT_NAME = PRODUCT_NAME;
-        this.LAST_UPDATE_DATE = LAST_UPDATE_DATE;
-        this.EXTERNAL_URL = EXTERNAL_URL;
-        this.ATTRIBUTE5 = ATTRIBUTE5;
-        this.ATTRIBUTE4 = ATTRIBUTE4;
-        this.ATTRIBUTE_CATEGORY = ATTRIBUTE_CATEGORY;
-        this.PRODUCT_STATUS = PRODUCT_STATUS;
-        this.WARRANTY_PERIOD_MONTHS = WARRANTY_PERIOD_MONTHS;
-        this.COST_PRICE = COST_PRICE;
-        this.TWITTER_TAG = TWITTER_TAG;
-
-    }
 
 }

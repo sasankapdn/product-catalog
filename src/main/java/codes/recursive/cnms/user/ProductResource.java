@@ -83,7 +83,7 @@ public class ProductResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response saveUser(RequestBody rq) {
         productRepository.create(rq);
-        return Response.ok("{ status: Saved, PRODUCT_ID: "+rq.PRODUCT_ID+"}", MediaType.APPLICATION_JSON).build();
+        return Response.ok("{ status: Saved, product_id: "+rq.PRODUCT_ID+"}", MediaType.APPLICATION_JSON).build();
 
     }
 
@@ -100,7 +100,7 @@ public class ProductResource {
             //                .path("/user/{id}")
             //                .build(user.getPRODUCT_ID())
             //).build();
-            return Response.ok("{ status: Saved, PRODUCT_ID: "+user.getPRODUCT_ID()+"}", MediaType.APPLICATION_JSON).build();
+            return Response.ok("{ status: Saved, product_id: "+user.product_id+"}", MediaType.APPLICATION_JSON).build();
 
         }
         else {
@@ -129,7 +129,7 @@ public class ProductResource {
     public Response deleteUser(@PathParam("id") String id) {
         productRepository.deleteById(id);
         //return Response.noContent().build();
-        return Response.ok("{ status: Deleted, PRODUCT_ID: "+id+"}", MediaType.APPLICATION_JSON).build();
+        return Response.ok("{ status: Deleted, product_id: "+id+"}", MediaType.APPLICATION_JSON).build();
     }
 
 
