@@ -1,7 +1,9 @@
-codes/recursive/cnms/user/ProductRepository.class
-codes/recursive/cnms/user/ProductApplication.class
+codes/recursive/cnms/user/Main$1.class
 codes/recursive/cnms/user/ProductProvider.class
 codes/recursive/cnms/user/RequestBody.class
 codes/recursive/cnms/user/model/Product.class
 codes/recursive/cnms/user/ProductResource.class
 codes/recursive/cnms/user/Main.class
+codes/recursive/cnms/user/ProductRepository.class
+codes/recursive/cnms/user/ProductApplication.class
+codes/recursive/cnms/user/Main$2.class

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3abe23b8-b342-4a55-8f41-47edc0ed8754" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-svc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product-svc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/jandex.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/microprofile-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codes/recursive/cnms/user/ProductResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/product-svc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/product-svc.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +43,18 @@
   </component>
   <component name="ProjectId" id="1ccvBaGnZLheeW2YWsamVhhxVSZ" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="codes.recursive.cnms.user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
