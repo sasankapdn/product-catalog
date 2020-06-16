@@ -1,9 +1,27 @@
 codes/recursive/cnms/user/Main$1.class
-codes/recursive/cnms/user/ProductProvider.class
+<<<<<<< HEAD
+=======
 codes/recursive/cnms/user/RequestBody.class
+codes/recursive/cnms/user/Handlers$EchoGetHandler.class
+codes/recursive/cnms/user/Main.class
+codes/recursive/cnms/user/Handlers$RootHandler.class
+codes/recursive/cnms/user/ProductRepository.class
+codes/recursive/cnms/user/ProductApplication.class
+codes/recursive/cnms/user/Main$2.class
+codes/recursive/cnms/user/Handlers$EchoPostHandler.class
+>>>>>>> 7738f8067841387b02efb68bd9ab0db150f5a01b
+codes/recursive/cnms/user/ProductProvider.class
+codes/recursive/cnms/user/SimpleHttpsServer$1.class
 codes/recursive/cnms/user/model/Product.class
 codes/recursive/cnms/user/ProductResource.class
+<<<<<<< HEAD
 codes/recursive/cnms/user/Main.class
 codes/recursive/cnms/user/ProductRepository.class
 codes/recursive/cnms/user/ProductApplication.class
 codes/recursive/cnms/user/Main$2.class
+=======
+codes/recursive/cnms/user/Handlers$EchoHeaderHandler.class
+codes/recursive/cnms/user/Handlers.class
+codes/recursive/cnms/user/SimpleHttpsServer.class
+codes/recursive/cnms/user/SimpleHttpServer.class
+>>>>>>> 7738f8067841387b02efb68bd9ab0db150f5a01b

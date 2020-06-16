@@ -118,6 +118,16 @@
           <properties class="codes.recursive.cnms.user.ProductRepository" method="findAll" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/SimpleHttpsServer.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codes/recursive/cnms/user/SimpleHttpsServer.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
