@@ -1,16 +1,7 @@
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/ProductRepository.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/model/Product.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/ProductResource.java
-<<<<<<< HEAD
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/ProductProvider.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/package-info.java
-=======
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/SimpleHttpServer.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/Handlers.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/ProductProvider.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/package-info.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/SimpleHttpsServer.java
->>>>>>> 7738f8067841387b02efb68bd9ab0db150f5a01b
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/RequestBody.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/ProductApplication.java
-/Users/sasanka/dev/mono-micro/product-catalog/src/main/java/codes/recursive/cnms/user/Main.java
+/Users/sasanka/dev/mono-micro/helidon/demo/product-svc/src/main/java/codes/recursive/cnms/user/ProductApplication.java
+/Users/sasanka/dev/mono-micro/helidon/demo/product-svc/src/main/java/codes/recursive/cnms/user/ProductRepository.java
+/Users/sasanka/dev/mono-micro/helidon/demo/product-svc/src/main/java/codes/recursive/cnms/user/ProductResource.java
+/Users/sasanka/dev/mono-micro/helidon/demo/product-svc/src/main/java/codes/recursive/cnms/user/package-info.java
+/Users/sasanka/dev/mono-micro/helidon/demo/product-svc/src/main/java/codes/recursive/cnms/user/ProductProvider.java
+/Users/sasanka/dev/mono-micro/helidon/demo/product-svc/src/main/java/codes/recursive/cnms/user/Main.java
+/Users/sasanka/dev/mono-micro/helidon/demo/product-svc/src/main/java/codes/recursive/cnms/user/model/Product.java
