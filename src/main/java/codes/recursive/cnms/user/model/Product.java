@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Entity
-@Table(name = "Product")
+@Table(name = "products")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Product {
 
