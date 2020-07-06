@@ -1,7 +1,7 @@
 
 # Helidon Quickstart MP Example - Product Catalog
 
-This example implements a simple Hello World REST service using MicroProfile
+This example implements a product catalog  REST service using Helidon  MicroProfile
 
 ## Prerequisites
 
