@@ -31,7 +31,7 @@ steps:
     name: "Build container image"
     command: |
       cd ${OCI_PRIMARY_SOURCE_DIR}
-      docker build --pull --rm -t product-svc .      
+      docker build -t product-svc .      
      
 outputArtifacts:
   - name: oke_app_base
